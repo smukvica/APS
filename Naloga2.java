@@ -78,6 +78,8 @@ public class Naloga2 {
             for(int i = zaseden; i < polje.length; i++){
                 if(polje[i] == id){
                     velikost++;
+                }else{
+                    break;   
                 }
             }
             free(id);
